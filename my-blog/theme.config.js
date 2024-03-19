@@ -4,8 +4,8 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Your Name.
-        <a href="/feed.xml">RSS</a>
+        <time>{YEAR}</time> © Agustin Gomez Del Toro
+        <a href="/contact.xml">Contacto</a>
       </small>
       <style jsx>{`
         footer {

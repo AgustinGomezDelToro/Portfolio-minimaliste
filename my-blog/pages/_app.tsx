@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="RSS"
+          title="Al"
           href="/feed.xml"
         />
         <link

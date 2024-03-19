@@ -1,12 +1,18 @@
-const withNextra = require("nextra")({
-  theme: "nextra-theme-blog",
-  themeConfig: "./theme.config.js",
-  // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-blog',
+  themeConfig: './theme.config.js',
 });
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // any configs you need
+  async redirects() {
+    return [
+      {
+        source: '/ES',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = withNextra(nextConfig);

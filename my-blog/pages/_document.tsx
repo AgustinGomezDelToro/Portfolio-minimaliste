@@ -10,7 +10,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="robots" content="follow, index" />
+        <meta name="robots" content="follow, ES" />
         <meta name="description" content={meta.description} />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
